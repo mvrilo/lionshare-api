@@ -59,6 +59,12 @@ const cryptoCurrencyMap = {
     pair: 'USDT_STR',
     intermediateCurrency: null
   },
+  DGB: {
+    exchange: 'poloniex',
+    hasNativeCurrency: false,
+    pair: 'BTC_DGB',
+    intermediateCurrency: 'BTC'
+  },
   LSK: {
     exchange: 'poloniex',
     hasNativeCurrency: false,
